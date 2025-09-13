@@ -128,6 +128,37 @@ padding-top: 8px;
     color: white;
 }
 
+.header .container .content p::after {
+  content: "";
+  animation: typing 4s infinite;
+  -webkit-animation: typing 4s infinite;
+}
+
+@keyframes typing {
+  0%   { content: " D|"; }
+  5%   { content: " De|"; }
+  10%  { content: " Des|"; }
+  15%  { content: " Desi|"; }
+  20%  { content: " Desig|"; }
+  25%  { content: " Design|"; }
+  30%  { content: " Designe|"; }
+  35%  { content: " Designer|"; }
+  40%  { content: " Designe|"; }
+  45%  { content: " Design|"; }
+  50%  { content: " Desi|"; }
+  55%  { content: " De|"; }
+  60%  { content: " Dev|"; }
+  65%  { content: " Deve|"; }
+  70%  { content: " Devel|"; }
+  75%  { content: " Develo|"; }
+  80%  { content: " Develop|"; }
+  85%  { content: " Develope|"; }
+  90%  { content: " Developer|"; }
+  95%  { content: " Develope|"; }
+  100% { content: " Devel|"; }
+}
+
+
 @media screen and (max-width:768px) {
     .header .nav{
         margin-top: -2px;
